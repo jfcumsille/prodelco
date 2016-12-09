@@ -19,10 +19,10 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
-  inicio: "Home"
-  empresa: "Enterprise"
-  proyectos: "Projects"
-  contacto: "Contact"
-  link1: "Who we are"
-  mensaje: "A message in English"
+es:
+  inicio: "Inicio"
+  empresa: "Empresa"
+  proyectos: "Proyectos"
+  contacto: "Contacto"
+  link1: "Quienes somos"
+  mensaje: "Un mensaje en español"
