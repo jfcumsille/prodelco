@@ -27,6 +27,7 @@ Rails.application.configure do
 
   config.assets.digest = true
 
+  config.i18n.default_locale = :es
 
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
 
