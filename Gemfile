@@ -11,6 +11,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 
+
 gem 'bootstrap-sass', '3.3.6'
 
 
@@ -28,6 +29,7 @@ end
 
 group :production do
   gem 'pg', '0.18.4'
+  gem 'rails_12factor'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
