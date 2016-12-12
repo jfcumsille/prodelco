@@ -1,6 +1,8 @@
 class MailsController < ApplicationController
+	skip_before_action :verify_authenticity_token
 	def recibirMail
-		mail = params[:inputEmail]
-		puts mail
+		mail = params[:email]
+		asunto = params[:subject]
+		mensaje = params[:message]
 	end
 end
