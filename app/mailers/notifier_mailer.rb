@@ -1,9 +1,12 @@
-class NotifierMailer < ApplicationMailer
+class NotifierMailer < ApplicationMailer	
 
-	def new_message(message, user)
-		
-		@message = message
-		mail to:
+	default from: 'buildings.community@gmail.com'
+
+	def new_message(mensaje, user, asunto)
+		@mensaje = mensaje
+		mail to: 'jfcumsille@uc.cl', subject: asunto  
 	end
+
+	
 
 end
