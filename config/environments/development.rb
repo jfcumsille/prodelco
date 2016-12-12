@@ -39,11 +39,11 @@ Rails.application.configure do
   address: "smtp.gmail.com",
   port: 587,
   domain: 'gmail.com',
-  user_name: "buildings.community@gmail.com",
-  password: "community123",
+  user_name: "contacto.prodelco@gmail.com",
+  password: "prodelco123",
   authentication: :plain,
   enable_starttls_auto: true
-}
+  }
 
   config.action_mailer.perform_caching = false
 
