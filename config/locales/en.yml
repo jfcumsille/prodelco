@@ -25,4 +25,7 @@ en:
   proyectos: "Projects"
   contacto: "Contact"
   link1: "Who we are"
-  mensaje: "A message in English"
+  asunto: "Subject"
+  mensaje: "Message"
+  enviar: "Send"
+  flashmail: "Your email was sent succesfuly!"

@@ -25,4 +25,7 @@ es:
   proyectos: "Proyectos"
   contacto: "Contacto"
   link1: "Quienes somos"
-  mensaje: "Un mensaje en español"
+  asunto: "Asunto"
+  mensaje: "Mensaje"
+  enviar: "Enviar"
+  flashmail: "Tu email ha sido enviado con exito!"
