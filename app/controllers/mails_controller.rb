@@ -5,6 +5,7 @@ class MailsController < ApplicationController
 		asunto = params[:subject]
 		mensaje = params[:message]
 		NotifierMailer.new_message(mensaje, mail, asunto).deliver
-      	flash[:succes] = "Tu mensaje ha sido enviado con exito"
+		flash[:success] = "Tu mail se ha enviado correctamente"
+		redirect_to contacto_path
 	end
 end
