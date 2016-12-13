@@ -13,11 +13,6 @@ body {
     height:100%;
 }
 
-#map{
-    height: 10 vh;
-    width: 10vw;
-}
-
 .footer {
     background-color: black;
     position: fixed;
@@ -78,15 +73,13 @@ li.dropdown {
 }
 
 #map {
-    height: 40vh;
+    height: 60vh;
     width: 40vw;
     display: block;
-
 }
 .vertical-center {
-    margin-top: 30vh;
-    margin-left: 20vw;
+    margin-top: 10vh;
+    margin-left: 0vw;
     vertical-align: middle;
-    float: none;
-    
+    float: none; 
 } 

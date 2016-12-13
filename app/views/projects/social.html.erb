@@ -1,0 +1,40 @@
+<br/>
+<br/>
+<br/>
+<br/>
+<div class="col-md-6">
+	<ul class="nav nav-tabs">
+	  <li><a <%= link_to I18n.t("edificios"), proyectos_edificios_path%></a></li>
+	  <li class="active"><a><%= I18n.t("viviendas")%></a></li>
+	</ul>
+</div>
+<div class="col-md-6">
+	<div id="map" class='vertical-center'></div>
+	<script type="text/javascript">
+		var map;
+		function initMap() {
+	  		map = new google.maps.Map(document.getElementById('map'), {
+	    	center: {lat: -34.5, lng: -71.3},
+	    	zoom: 9
+	  		});
+	  	var marker =new google.maps.Marker({
+				    position: {lat: -34.7037186, lng: -71.04217},
+				    map: map,
+				    title: 'La Turbina'
+				  });
+	  	var marker2 =new google.maps.Marker({
+				    position: {lat: -34.4344182, lng: -71.0826881},
+				    map: map,
+				    title: 'San Vicente'
+				  });
+	  	var marker3 =new google.maps.Marker({
+				    position: {lat: -34.389398, lng: -70.8537679},
+				    map: map,
+				    title: 'Rengo'
+				  });
+		}			
+	</script>
+	<script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-_aJWhDXwIbKo67e2OPM-9AZwBr1wajA&callback=initMap">
+	</script>
+</div>
