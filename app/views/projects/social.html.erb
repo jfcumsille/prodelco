@@ -1,0 +1,25 @@
+<br/>
+<br/>
+<br/>
+<br/>
+<div class="col-md-6">
+	<ul class="nav nav-tabs">
+	  <li><a href="#">Edificios</a></li>
+	  <li class="active"><a>Obras sociales</a></li>
+	</ul>
+</div>
+<div class="col-md-6">
+	<div id="map" class='vertical-center'></div>
+	<script type="text/javascript">
+		var map;
+		function initMap() {
+	  		map = new google.maps.Map(document.getElementById('map'), {
+	    	center: {lat: -34.7037186, lng: -71.04217},
+	    	zoom: 10
+	  		});
+		}		
+	</script>
+	<script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-_aJWhDXwIbKo67e2OPM-9AZwBr1wajA&callback=initMap">
+	</script>
+</div>
