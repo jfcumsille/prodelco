@@ -4,7 +4,8 @@ Rails.application.routes.draw do
 		get 'contacto', to: 'static_pages#contact'
 		get 'proyectos', to: 'static_pages#projects'
 		get 'map', to: 'static_pages#map'
-		get 'proyectos/turbina', to: 'projects#turbina'
+		get 'proyectos/edificios', to: 'projects#edificios'
+		get 'proyectos/social', to: 'projects#social'
 		post 'postContact', to: 'mails#recibirMail'
 
 		root 'static_pages#home'
