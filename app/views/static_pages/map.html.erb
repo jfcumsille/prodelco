@@ -7,18 +7,23 @@
 </div>
 <script type="text/javascript">
 	handler = Gmaps.build('Google');
-	handler.buildMap({ provider: {zoom:9, center: {"lat": -34.7029622, "lng": -71.0429023}}, internal: {id: 'map'}}, function(){
-	  markers = handler.addMarkers([
-	    {
-	      "lat": -34.7029622,
-	      "lng": -71.0429023,
-	      "picture": {
-	        "width":  15,
-	        "height": 15
-	      },
-	      "infowindow": "hello!"
-	    }
-	  ]);
-	  handler.bounds.extendWith(markers);
+	var map = handler.buildMap({ provider: {zoom:9, center: {"lat": -34.7029622, "lng": -71.0429023}},internal: {id: 'map'}}, function(){
+		var marker = {
+		      		"lat": -34.7029622,
+		      		"lng": -71.0429023,
+		      		"picture": {
+		        	"width":  15,
+		        	"height": 15
+		      		},	      
+				}
+		var infowindow = {content: "La turbina", map: map}
+		marker.addListener('mouseover', function() {
+			infowindow.open(map,this);
+		});
+		marker.addListener('mouseout', function() {
+			infowindow.close();
+		});
+		markers = handler.addMarkers([marker]);	
+	handler.bounds.extendWith(markers);
 });
 </script>
