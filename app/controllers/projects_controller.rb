@@ -1,4 +1,6 @@
 class ProjectsController < ApplicationController
-	def turbina
+	def edificios
+	end
+	def social
 	end
 end
