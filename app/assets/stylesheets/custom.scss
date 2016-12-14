@@ -86,12 +86,11 @@ li.dropdown {
 
 #vimeo {
     height: 50vh;      
-    width: 40vw;  
+    width: 50vw;  
 }
 
 #myCarousel {
-    height: 50vh;
-    width: 40vw;  
+    height: 50vh; 
 }
 
 #iframe{
@@ -105,4 +104,8 @@ li.dropdown {
 #alto-inner{
     min-height: 100%;
     max-width: 100%;
+}
+.carousel-inner{
+    height: 50vh;
+    width: 50vw;
 }
