@@ -2,7 +2,7 @@
 @import "bootstrap";
 
 body {
-    background: image-url("fondo.png");
+    background: image-url("background.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -14,11 +14,25 @@ body {
 }
 
 .footer {
-    background-color: black;
+    background-color: rgb(170,0,0);
+    color: black;
+    font-weight: bold;
     position: fixed;
     height: 30px;
     bottom: 0px;
     width: 100%;
+}
+
+#header {
+    background-color: rgb(170,0,0);
+    font-weight: bold;
+}
+
+.nav.navbar-nav.navbar-left li a {
+    color:black;
+}
+.nav.navbar-nav.navbar-right li a {
+    color:black;
 }
 
 /* DROPDOWN HOVER */
@@ -36,7 +50,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: white;
 }
 
 li.dropdown {
@@ -120,4 +134,8 @@ li.dropdown {
     float: right;
     padding: 0% 0% 0% 2%;
     width: 50%;
+}
+
+#logo {
+    margin-left: 36%;    
 }
