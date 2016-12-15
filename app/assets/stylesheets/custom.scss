@@ -93,6 +93,18 @@ li.dropdown {
     height: 50vh; 
 }
 
+#iframe{
+    width: 100%;
+    height: 100%;
+}
+.image-carousel{
+    min-height: 100%;
+    max-width: 100%;    
+}
+#alto-inner{
+    min-height: 100%;
+    max-width: 100%;
+}
 .carousel-inner{
     height: 50vh;
     width: 50vw;
