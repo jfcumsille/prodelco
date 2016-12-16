@@ -157,3 +157,20 @@ li.dropdown {
     height: 37vh;
     float: left;
 }
+
+.nav.nav-tabs li.active a{
+    background-color: rgb(50,50,50);
+    color: rgb(150,150,150);
+    border-color: rgb(150,150,150);
+}
+
+.nav.nav-tabs li a {
+    background-color: rgb(90,90,90);
+    color: rgb(150,150,150);
+    border-color: rgb(90,90,90);   
+}
+
+.nav.nav-tabs {
+    border-color: rgb(50,50,50);
+    border-width: 2px;
+}
