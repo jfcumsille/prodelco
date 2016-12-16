@@ -1,8 +1,8 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-body {
-    background: image-url("gotham_o.jpg");
+#body-home {
+    background: image-url("New-York.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -14,27 +14,24 @@ body {
 }
 
 .footer {
-    background-color: gray;
-    color: black;
+    background-color: black;
+    color: gray;
     font-weight: bold;
     position: fixed;
     height: 30px;
     bottom: 0px;
     width: 100%;
-    opacity: 0.8;
 }
 
 #header {
-    background-color: gray;
     font-weight: bold;
-    opacity: 0.8;
 }
 
 .nav.navbar-nav.navbar-left li a {
-    color:black;
+    color:gray;
 }
 .nav.navbar-nav.navbar-right li a {
-    color:black;
+    color:gray;
 }
 
 /* DROPDOWN HOVER */
