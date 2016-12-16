@@ -2,7 +2,7 @@
 @import "bootstrap";
 
 body {
-    background: image-url("gotham_o.jpg");
+    background: image-url("New-York.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -14,7 +14,7 @@ body {
 }
 
 .footer {
-    background-color: gray;
+    background-color: white;
     color: black;
     font-weight: bold;
     position: fixed;
@@ -25,7 +25,7 @@ body {
 }
 
 #header {
-    background-color: gray;
+    background-color: white;
     font-weight: bold;
     opacity: 0.8;
 }
@@ -137,8 +137,4 @@ li.dropdown {
     float: right;
     padding: 0% 0% 0% 2%;
     width: 50%;
-}
-
-#logo {
-    margin-left: 36%;    
 }
