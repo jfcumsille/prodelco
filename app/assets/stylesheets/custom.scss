@@ -2,7 +2,7 @@
 @import "bootstrap";
 
 body {
-    background: image-url("background.jpg");
+    background: image-url("gotham_o.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -14,18 +14,20 @@ body {
 }
 
 .footer {
-    background-color: rgb(170,0,0);
+    background-color: gray;
     color: black;
     font-weight: bold;
     position: fixed;
     height: 30px;
     bottom: 0px;
     width: 100%;
+    opacity: 0.8;
 }
 
 #header {
-    background-color: rgb(170,0,0);
+    background-color: gray;
     font-weight: bold;
+    opacity: 0.8;
 }
 
 .nav.navbar-nav.navbar-left li a {
