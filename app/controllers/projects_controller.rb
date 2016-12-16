@@ -7,4 +7,10 @@ class ProjectsController < ApplicationController
 	end
 	def altoSanFernando
 	end
+	def laTurbina
+	end
+	def rengo
+	end
+	def sanVicente
+	end
 end

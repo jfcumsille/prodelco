@@ -8,6 +8,16 @@
 	  <li><a <%= link_to I18n.t("edificios"), proyectos_edificios_path%></a></li>
 	  <li class="active"><a><%= I18n.t("viviendas")%></a></li>
 	</ul>
+	<div class="row">
+	  <div class="col-md-6"><%= link_to image_tag("alto san fernando.jpg", style: "display: block; height:25vh; width: 15vw; margin-right: auto;"), :action => 'laTurbina', :controller => 'projects'%></a>
+	  	<h4> <%= link_to "La Turbina", proyectos_social_laTurbina_path%></h4>
+	  	<%= link_to image_tag("alto san fernando.jpg", style: "display: block; height:25vh; width: 15vw; margin-right: auto;"), :action => 'rengo', :controller => 'projects'%></a>
+	  	<h4> <%= link_to "Rengo", proyectos_social_rengo_path%></h4>
+	  </div>
+	  <div class="col-md-6"><%= link_to image_tag("araucaria.jpg", style: "display: block; height:25vh; width: 15vw; margin-right: auto;"), :action => 'sanVicente', :controller => 'projects'%></a>
+	  	<h4><%= link_to "San Vicente", proyectos_social_sanVicente_path%></h4>
+	  </div>
+	</div>
 </div>
 <div class="col-md-6">
 	<div id="map" class='vertical-center'></div>

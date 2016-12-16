@@ -7,7 +7,11 @@ Rails.application.routes.draw do
 		get 'proyectos/edificios', to: 'projects#edificios'
 		get 'proyectos/social', to: 'projects#social'
 		get 'proyectos/edificios/araucaria', to: 'projects#araucaria'
-		get 'proyectos/edificios/altosanfernando', to: 'projects#altoSanFernando'
+		get 'proyectos/edificios/altoSanFernando', to: 'projects#altoSanFernando'
+		get 'proyectos/social/laTurbina', to: 'projects#laTurbina'
+		get 'proyectos/social/rengo', to: 'projects#rengo'
+		get 'proyectos/social/sanVicente', to: 'projects#sanVicente'
+		
 		post 'postContact', to: 'mails#recibirMail'
 
 		root 'static_pages#home'
