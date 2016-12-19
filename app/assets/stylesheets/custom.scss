@@ -119,11 +119,6 @@ li.dropdown {
     width: 40vw;  
 }
 
-#myCarousel {
-    height: 50vh; 
-    width: 40vw;
-}
-
 #iframe{
     width: 100%;
     height: 100%;
@@ -132,25 +127,9 @@ li.dropdown {
     min-height: 100%;
     max-width: 100%;    
 }
-#alto-inner{
-    min-height: 100%;
-    max-width: 100%;
-}
+
 .carousel-inner{
     height: 85vh;
-    width: 50vw;
-}
-
-#colCarousel{
-    float: left;
-    padding: 0% 2% 0% 0%;
-    width: 50%;
-}
-
-#colVideo{
-    float: right;
-    padding: 0% 0% 0% 2%;
-    width: 50%;
 }
 
 .texto{
