@@ -1,0 +1,63 @@
+<%provide(:title, I18n.t("proyectos"))%>
+
+<div class="col-xs-6">
+</br>
+	<ul class="nav nav-tabs">
+	  <li><a <%= link_to I18n.t("edificios"), proyectos_edificios_path, style: "font-weight: bold; font-family: Arial"%></a></li>
+	  <li><a <%= link_to I18n.t("viviendas"), proyectos_social_path, style: "font-weight: bold; font-family: Arial"%></a></li>
+	  <li class="active"><a style="font-weight:bold"><%= I18n.t("anteriores")%></a></li>
+	</ul>
+	</br>
+	<div class="row">
+		 <div class="panel-group" id="accordion">
+		  <div class="panel panel-default">
+		    <div class="panel-heading">
+		      <h4 class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+		        Collapsible Group 1</a>
+		      </h4>
+		    </div>
+		    <div id="collapse1" class="panel-collapse collapse in">
+		      <div class="panel-body">TEXTO</div>
+		    </div>
+		  </div>
+		  <div class="panel panel-default">
+		    <div class="panel-heading">
+		      <h4 class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+		        Collapsible Group 2</a>
+		      </h4>
+		    </div>
+		    <div id="collapse2" class="panel-collapse collapse">
+		      <div class="panel-body">TEXTO</div>
+		    </div>
+		  </div>
+		  <div class="panel panel-default">
+		    <div class="panel-heading">
+		      <h4 class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+		        Collapsible Group 3</a>
+		      </h4>
+		    </div>
+		    <div id="collapse3" class="panel-collapse collapse">
+		      <div class="panel-body">TEXTO</div>
+		    </div>
+		  </div>
+		</div> 
+	</div>
+</div>
+<div class="col-xs-6">
+	<div id="map" class='vertical-center'></div>
+	<script type="text/javascript">
+		var map;
+		function initMap() {
+	  		map = new google.maps.Map(document.getElementById('map'), {
+	    	center: {lat: -34.581193, lng: -70.9788379},
+	    	zoom: 13
+	  		});
+		}		
+	</script>
+	<script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-_aJWhDXwIbKo67e2OPM-9AZwBr1wajA&callback=initMap">
+	</script>
+</div>

@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 		get 'map', to: 'static_pages#map'
 		get 'proyectos/edificios', to: 'projects#edificios'
 		get 'proyectos/social', to: 'projects#social'
+		get 'proyectos/anteriores', to: 'projects#anteriores'
 		get 'proyectos/edificios/araucaria', to: 'projects#araucaria'
 		get 'proyectos/edificios/altoSanFernando', to: 'projects#altoSanFernando'
 		get 'proyectos/social/laTurbina', to: 'projects#laTurbina'
