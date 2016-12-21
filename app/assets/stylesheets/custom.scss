@@ -145,15 +145,74 @@ li.dropdown {
     background-color: rgb(50,50,50);
     color: rgb(150,150,150);
     border-color: rgb(150,150,150);
+    font-size: 16px;
+    border: 0px;
 }
 
 .nav.nav-tabs li a {
     background-color: rgb(90,90,90);
     color: rgb(150,150,150);
-    border-color: rgb(90,90,90);   
+    border-color: rgb(90,90,90);
+    font-size: 16px;
+    border: 0px;   
 }
 
 .nav.nav-tabs {
     border-color: rgb(50,50,50);
     border-width: 2px;
+}
+
+text.accordion {
+    background-color: transparent;
+    color: rgb(50,50,50);
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    border: none;
+    text-align: right;
+    outline: none;
+    font-size: 16px;
+    font-family: "Arial";
+    font-weight: bold;
+    width: 15vw;
+    margin-left: 1vw;
+}
+
+text.accordion.active {
+    background-color: transparent;
+} 
+text.accordion:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+text.accordion:after {
+    content: '\002B';
+    color: rgb(50,50,50);
+    font-weight: bold;
+    font-size: 15px;
+    float: left;
+}
+
+text.accordion.active:after {
+    content: "\2212";
+}
+
+div.panel {
+    margin-bottom: 1vw;
+    background-color: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+    color: rgb(60,60,60);
+    font-weight: bold;
+    font-family: "Arial";
+    font-size: 14px;
+    margin-left: 3vw;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;  
 }
