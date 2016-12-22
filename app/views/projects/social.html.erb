@@ -6,12 +6,12 @@
 		  <li class="active"><a style="font-weight:bold"><%= I18n.t("viviendas")%></a></li>
 		  <li><a <%= link_to I18n.t("anteriores"), proyectos_anteriores_path, style: "font-weight: bold; font-family: Arial"%></a></li>
 		</ul>
-		  <div class="w3-col" style="width:50%;"><%= link_to image_tag("alto san fernando.jpg", style: "display: block; width:15vw;  margin-right: auto; border: 1px solid black;"), :action => 'laTurbina', :controller => 'projects'%></a>
+		  <div class="w3-col w3-margin-top" style="width:50%;"><%= link_to image_tag("alto san fernando.jpg", style: "display: block; width:15vw;  margin-right: auto; border: 1px solid black;"), :action => 'laTurbina', :controller => 'projects'%></a>
 		  	<h4> <%= link_to I18n.t("vivienda1"), proyectos_social_laTurbina_path, style: "font-weight:bold; font-family:Arial; color:rgb(50,50,50);"%></h4>
 		  	<%= link_to image_tag("alto san fernando.jpg", style: "display: block; width:15vw; margin-right: auto; border: 1px solid black;"), :action => 'rengo', :controller => 'projects'%></a>
 		  	<h4> <%= link_to I18n.t("vivienda2"), proyectos_social_rengo_path, style: "font-weight:bold; font-family:Arial; color:rgb(50,50,50);"%></h4>
 		  </div>
-		  <div class="w3-col" style="width:50%;"><%= link_to image_tag("araucaria.jpg", style: "display: block; width:15vw; margin-right: auto; border: 1px solid black;"), :action => 'sanVicente', :controller => 'projects'%></a>
+		  <div class="w3-col w3-margin-top" style="width:50%;"><%= link_to image_tag("araucaria.jpg", style: "display: block; width:15vw; margin-right: auto; border: 1px solid black;"), :action => 'sanVicente', :controller => 'projects'%></a>
 		  	<h4><%= link_to I18n.t("vivienda3"), proyectos_social_sanVicente_path, style: "font-weight:bold; font-family:Arial; color:rgb(50,50,50);"%></h4>
 		  </div>
 	</div>
