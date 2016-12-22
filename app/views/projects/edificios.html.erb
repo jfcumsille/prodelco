@@ -7,15 +7,13 @@
 		  <li><a <%= link_to I18n.t("viviendas"), proyectos_social_path, style: "font-weight: bold; font-family: Arial"%></a></li>
 		  <li><a <%= link_to I18n.t("anteriores"), proyectos_anteriores_path, style: "font-weight: bold; font-family: Arial"%></a></li>
 		</ul>
-		</br>
-		<div class="w3-row">
+		</br>		
 		  <div class="w3-col" style="width:50%;"><%= link_to image_tag("alto san fernando.jpg", style: "display: block; width:15vw; margin-right: auto; border:1px solid black;"), :action => 'altoSanFernando', :controller => 'projects'%></a>
 		  	<h4> <%= link_to I18n.t("edificio1"), proyectos_edificios_altoSanFernando_path, style: "font-weight:bold; font-family:Arial; color:rgb(50,50,50);" %></h4>
 		  </div>
 		  <div class="w3-col" style="width:50%;"><%= link_to image_tag("araucaria.jpg", style: "display: block; width:15vw; margin-right: auto; border:1px solid black;"), :action => 'araucaria', :controller => 'projects'%></a>
 		  	<h4><%= link_to I18n.t("edificio2"), proyectos_edificios_araucaria_path, style: "font-weight:bold; font-family:Arial; color:rgb(50,50,50);" %> </h4>
 		  </div>
-		</div>
 	</div>
 	<div class="w3-half w3-container">
 		<div id="map" class='vertical-center'></div>
