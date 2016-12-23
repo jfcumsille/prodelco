@@ -9,7 +9,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
-
+gem 'figaro'
 gem 'gmaps4rails'
 gem 'underscore-rails'
 
@@ -22,6 +22,11 @@ group :development, :test do
 end
 
 group :development do
+  gem 'capistrano'
+  gem 'capistrano3-puma'
+  gem 'capistrano-rails', require: false
+  gem 'capistrano-bundler', require: false
+  gem 'capistrano-rvm'
   gem 'web-console'
   gem 'listen', '~> 3.0.5'
   gem 'spring'
